@@ -1,0 +1,642 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    background: linear-gradient(135deg, #97cc8b, #2d3a2f);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: raleway;
+}   
+
+
+header {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    gap: 200px;
+}
+
+.contact-me {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.a {
+    text-decoration: none;
+    color: inherit;
+    color: black;
+    font-weight: 600;
+}
+
+.contact-btn {
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid black;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: transparent   ;
+    cursor: pointer;
+}
+
+.main-section {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 90px;
+}
+
+.name h2 {
+    font-size: 35px;
+}
+
+.inname {
+    font-size: 25px;
+    line-height: 20px;
+    padding-top: 5px;
+}
+
+.name-h1 {
+    padding-left: 50px;
+}
+
+.name p {
+    font-weight: 800;
+    opacity: 0.5;
+
+}
+
+.logo_app {
+    display: flex;
+    padding-top: 100px;
+    gap: 20px;
+}
+
+.img-men img {
+    margin-top: -30px;
+}
+
+.crafts {
+    width: 100wh;
+    height: 200px;
+    background-color: #141413;
+    color: white;
+    padding: 5px 30px;
+}
+
+.crafts p {
+    line-height: 30px;
+}
+
+
+
+
+.about-me {
+    text-align: center;
+    padding-top: 150px;
+    background: linear-gradient(135deg, rgba(45, 58, 47, 0.9) rgba(151, 204, 139, 0.8), rgba(45, 58, 47, 0.8));
+}
+
+.about-me h1 {
+    font-size: 40px;
+    border: 8px solid black;
+    display: inline;
+    padding: 15px 30px;
+    letter-spacing: 5px;
+}
+
+.about-me p {
+    padding-top: 80px;
+    font-weight: 600;
+}
+
+.about-me button {
+    background-color:transparent;
+    border: none;
+    font-size: 20px;
+    margin-top: 80px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    padding: 0 30px;
+    margin-bottom: 80px;
+    height: 40px;
+    cursor: pointer;
+}
+
+
+
+
+.DDM {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
+    gap: 40px;
+    padding: 100px 150px;
+    margin: 0 auto;
+    background: linear-gradient(135deg, rgba(45, 58, 47, 0.9) rgba(151, 204, 139, 0.8), rgba(45, 58, 47, 0.8));
+}
+
+.DDM div:nth-child(3) {
+    grid-column: 1 / span 2;
+    justify-self: center;
+    width: 50%;
+    text-align: center;
+}
+
+.ddm-h1 {
+    text-align: start;
+}
+
+.ddm-p {
+    text-align: start;
+}
+
+.page-3 {
+    text-align: center;
+    padding-top: 100px;
+    background: linear-gradient(135deg, rgba(45, 58, 47, 0.9) rgba(151, 204, 139, 0.8), rgba(45, 58, 47, 0.8));
+}
+
+
+
+.skills {
+    font-size: 40px;
+    border: 8px solid black;
+    display: inline;
+    padding: 15px 30px;
+    letter-spacing: 5px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.using {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.using h1 {
+    padding-top: 30px;
+    font-size: 28px;
+    margin-bottom: 60px;
+    letter-spacing: 2px;
+}
+
+.using-img {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 40px 60px;
+    justify-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.using-img div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.using-img img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.using-img img:hover {
+    transform: scale(1.2);
+}
+
+.using-img h3 {
+    font-size: 14px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    color: #333;
+}
+
+
+
+.learning {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.learning h1 {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    margin-bottom: 50px;
+}
+
+.learning>div {
+    display: inline-block;
+    margin: 0 50px;
+    text-align: center;
+}
+
+.learning img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.learning img:hover {
+    transform: scale(1.1);
+}
+
+.learning h3 {
+    margin-top: 10px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #222;
+}
+
+
+
+.other-skills {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.other-skills h1 {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    margin-bottom: 50px;
+}
+
+.other-skills>div {
+    display: inline-block;
+    margin: 20px 30px;
+    text-align: center;
+}
+
+.other-skills img {
+
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.other-skills img:hover {
+    transform: scale(1.1);
+}
+
+.other-skills h3 {
+    margin-top: 10px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    color: #222;
+}
+
+.bio {
+    width: 75px;
+    height: 110px;
+    transform: translateY(5px);
+}
+
+.sport {
+    width: 120px;
+    height: 120px;
+    transform: translateY(10px);
+
+}
+
+.div-sport {
+    transform: translateX(-10px);
+}
+
+.eng {
+    width: 70px;
+    height: 70px;
+}
+
+
+
+
+.contact h2 {
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.contact h2 span {
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+body {
+    min-height: 100vh;
+}
+
+/* Better header layout */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    gap: 20px;
+}
+
+/* Nav / contact area */
+.contact-me {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+/* Make main section wrap and center on small screens */
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding-top: 60px;
+    flex-wrap: wrap;
+}
+
+/* Name block sizing */
+.name {
+    flex: 1 1 420px;
+    max-width: 520px;
+    padding: 0 20px;
+    text-align: left;
+}
+
+/* Image block sizing */
+.img-men {
+    flex: 1 1 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.img-men img {
+    width: 320px;
+    /* default desktop-friendly size */
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: -30px;
+}
+
+/* Crafts section */
+.crafts {
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+/* DDM grid tweaks */
+.DDM {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    padding: 80px 100px;
+    box-sizing: border-box;
+}
+
+/* Make sure the 3rd item spans full width when needed */
+.DDM div:nth-child(3) {
+    grid-column: 1 / -1;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Skills block tweaks */
+.using-img {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 24px 40px;
+    justify-items: center;
+    max-width: 880px;
+    margin: 0 auto;
+}
+
+/* Keep icons consistent */
+.using-img img,
+.learning img,
+.other-skills img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+/* Learning / other-skills inline layout */
+.learning>div,
+.other-skills>div {
+    display: inline-block;
+    margin: 0 24px;
+    text-align: center;
+}
+
+/* Normalize big hobby images */
+.bio {
+    width: 70px;
+    height: 70px;
+    transform: none;
+}
+
+.sport {
+    width: 70px;
+    height: 70px;
+    transform: none;
+}
+
+.eng {
+    width: 70px;
+    height: 70px;
+}
+
+/* Contact form inputs responsive */
+.name-contact,
+.email,
+.message {
+    width: 100%;
+    max-width: 520px;
+    box-sizing: border-box;
+}
+
+/* ===== Media queries ===== */
+
+/* Tablet landscape / small desktop */
+@media (max-width: 1024px) {
+    .DDM {
+        padding: 60px 60px;
+    }
+
+    .img-men img {
+        width: 280px;
+    }
+
+    .using-img {
+        max-width: 720px;
+        gap: 20px 30px;
+    }
+}
+
+/* Tablet / large phones */
+@media (max-width: 900px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 18px 20px;
+        gap: 12px;
+    }
+
+    .contact-me {
+        flex-direction: row;
+        gap: 12px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .main-section {
+        padding-top: 30px;
+    }
+
+    .name {
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .inname {
+        padding-left: 0;
+    }
+
+    .img-men {
+        order: 2;
+        margin-top: 10px;
+    }
+
+    .img-men img {
+        width: 260px;
+    }
+
+    .DDM {
+        grid-template-columns: 1fr;
+        padding: 40px 24px;
+    }
+
+    .DDM div:nth-child(3) {
+        width: 100%;
+    }
+
+    .using-img {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 18px;
+    }
+
+    .learning>div,
+    .other-skills>div {
+        margin: 16px;
+    }
+
+    .crafts {
+        padding: 24px;
+    }
+}
+
+/* Mobile phones */
+@media (max-width: 480px) {
+    header {
+        padding: 14px 14px;
+    }
+
+    .contact-me {
+        gap: 10px;
+    }
+
+    .name h2 {
+        font-size: 20px;
+    }
+
+    .inname {
+        font-size: 16px;
+        line-height: 1.1;
+    }
+
+    .name p {
+        font-size: 14px;
+    }
+
+    .img-men img {
+        width: 180px;
+        margin-top: -10px;
+    }
+
+    .skills {
+        font-size: 20px;
+        padding: 8px 12px;
+        border-width: 4px;
+    }
+
+    .using-img {
+        grid-template-columns: 1fr 1fr;
+        gap: 14px;
+        max-width: 360px;
+    }
+
+    .learning h1,
+    .other-skills h1 {
+        font-size: 18px;
+    }
+
+    .DDM {
+        padding: 24px 16px;
+        gap: 20px;
+    }
+
+    .contact {
+        gap: 24px;
+
+        padding: 0px 20px 40px 20px ;
+    }
+
+    .contact h1 {
+        font-size: 20px;
+        border-width: 3px;
+        padding: 10px 18px;
+        width: auto;
+    }
+
+    .contact button {
+        font-size: 16px;
+        padding: 0 20px;
+        height: 48px;
+    }
+}
+@media (max-width: 880px) {
+  .img-men {
+    display: none;
+  }
+}
+@media(max-width:630px){
+    .DDM-div-1{
+        width: 50%;
+    }
+    .DDM-div-2{
+        width: 50%;
+    }
+
+}
+/* Small fix: make sure no element forces horizontal scroll */
+html,
+body {
+    overflow-x: hidden;}
+
