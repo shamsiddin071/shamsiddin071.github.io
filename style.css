@@ -3,7 +3,7 @@ body {
     margin: 0;
     box-sizing: border-box;
     height: 100vh;
-    background: linear-gradient(135deg, #97cc8b, #2d3a2f);
+    background:   #536878;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -28,7 +28,7 @@ header {
 .a {
     text-decoration: none;
     color: inherit;
-    color: black;
+    color: #EAE0C8;
     font-weight: 600;
 }
 
@@ -83,7 +83,7 @@ header {
     width: 100wh;
     height: 200px;
     background-color: #141413;
-    color: white;
+    color:#EAE0C8;
     padding: 5px 30px;
 }
 
@@ -214,7 +214,7 @@ header {
     font-size: 14px;
     margin-top: 10px;
     letter-spacing: 1px;
-    color: #333;
+    color: #EAE0C8;
 }
 
 
@@ -252,7 +252,7 @@ header {
     margin-top: 10px;
     font-size: 13px;
     letter-spacing: 1px;
-    color: #222;
+    color:#EAE0C8;
 }
 
 
@@ -290,7 +290,7 @@ header {
     font-size: 13px;
     letter-spacing: 1px;
     line-height: 1.2;
-    color: #222;
+    color: #EAE0C8;
 }
 
 .bio {
