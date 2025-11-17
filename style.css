@@ -3,11 +3,16 @@ body {
     margin: 0;
     box-sizing: border-box;
     height: 100vh;
+<<<<<<< HEAD
     background:   #536878;
+=======
+    background:linear-gradient(135deg, #7e566b, #2b1721);
+>>>>>>> a0b84d6 (frist commit)
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     font-family: raleway;
+    color:  #f2ebe2e8 !important;
 }   
 
 
@@ -33,6 +38,7 @@ header {
 }
 
 .contact-btn {
+    color:#fdefdddc ;
     width: 130px;
     height: 40px;
     border-radius: 20px;
@@ -124,6 +130,11 @@ header {
     margin-bottom: 80px;
     height: 40px;
     cursor: pointer;
+    color: #EAE0C8;
+}
+.about-me-img{
+    text-align: center;
+    transform: translateX(50px);
 }
 
 
@@ -342,7 +353,7 @@ body {
     min-height: 100vh;
 }
 
-/* Better header layout */
+
 header {
     display: flex;
     justify-content: space-between;
@@ -351,14 +362,14 @@ header {
     gap: 20px;
 }
 
-/* Nav / contact area */
+
 .contact-me {
     display: flex;
     gap: 20px;
     align-items: center;
 }
 
-/* Make main section wrap and center on small screens */
+
 .main-section {
     display: flex;
     justify-content: space-between;
@@ -368,7 +379,7 @@ header {
     flex-wrap: wrap;
 }
 
-/* Name block sizing */
+
 .name {
     flex: 1 1 420px;
     max-width: 520px;
@@ -376,7 +387,7 @@ header {
     text-align: left;
 }
 
-/* Image block sizing */
+
 .img-men {
     flex: 1 1 360px;
     display: flex;
@@ -387,14 +398,13 @@ header {
 
 .img-men img {
     width: 320px;
-    /* default desktop-friendly size */
     max-width: 100%;
     height: auto;
     display: block;
     margin-top: -30px;
 }
 
-/* Crafts section */
+
 .crafts {
     width: 100%;
     height: auto;
@@ -402,7 +412,7 @@ header {
     box-sizing: border-box;
 }
 
-/* DDM grid tweaks */
+
 .DDM {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -411,7 +421,7 @@ header {
     box-sizing: border-box;
 }
 
-/* Make sure the 3rd item spans full width when needed */
+
 .DDM div:nth-child(3) {
     grid-column: 1 / -1;
     width: 70%;
@@ -419,7 +429,7 @@ header {
     text-align: center;
 }
 
-/* Skills block tweaks */
+
 .using-img {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
@@ -429,7 +439,7 @@ header {
     margin: 0 auto;
 }
 
-/* Keep icons consistent */
+
 .using-img img,
 .learning img,
 .other-skills img {
@@ -438,7 +448,7 @@ header {
     object-fit: contain;
 }
 
-/* Learning / other-skills inline layout */
+
 .learning>div,
 .other-skills>div {
     display: inline-block;
@@ -446,7 +456,6 @@ header {
     text-align: center;
 }
 
-/* Normalize big hobby images */
 .bio {
     width: 70px;
     height: 70px;
@@ -464,7 +473,7 @@ header {
     height: 70px;
 }
 
-/* Contact form inputs responsive */
+
 .name-contact,
 .email,
 .message {
@@ -473,9 +482,7 @@ header {
     box-sizing: border-box;
 }
 
-/* ===== Media queries ===== */
 
-/* Tablet landscape / small desktop */
 @media (max-width: 1024px) {
     .DDM {
         padding: 60px 60px;
@@ -491,7 +498,6 @@ header {
     }
 }
 
-/* Tablet / large phones */
 @media (max-width: 900px) {
     header {
         flex-direction: column;
@@ -553,7 +559,7 @@ header {
     }
 }
 
-/* Mobile phones */
+
 @media (max-width: 480px) {
     header {
         padding: 14px 14px;
@@ -636,7 +642,7 @@ header {
     }
 
 }
-/* Small fix: make sure no element forces horizontal scroll */
+
 html,
 body {
     overflow-x: hidden;}
