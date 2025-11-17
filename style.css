@@ -3,11 +3,8 @@ body {
     margin: 0;
     box-sizing: border-box;
     height: 100vh;
-<<<<<<< HEAD
     background:   #536878;
-=======
     background:linear-gradient(135deg, #7e566b, #2b1721);
->>>>>>> a0b84d6 (frist commit)
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -481,8 +478,6 @@ header {
     max-width: 520px;
     box-sizing: border-box;
 }
-
-
 @media (max-width: 1024px) {
     .DDM {
         padding: 60px 60px;
@@ -646,7 +641,5 @@ header {
 html,
 body {
     overflow-x: hidden;}
-body{
-    color:#EAE0C8; !important
-}
+
 
